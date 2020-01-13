@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/answer/medium/FindAllAnagramsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/answer/medium/FindAllAnagramsInAStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/answer/hard/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/answer/hard/MinimumWindowSubstringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/answer/medium/LongestRepeatingCharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answer/medium/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/answer/medium/FindAllAnagramsInAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/answer/medium/FindAllAnagramsInAString.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="answer.hard" />
       <recent name="answer.medium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -66,65 +67,81 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindAllAnagramsInAStringTest.findAnagrams">
-    <configuration name="FindAllAnagramsInAStringTest.findAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MinimumWindowSubstringTest.minWindow6">
+    <configuration name="MinimumWindowSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.FindAllAnagramsInAStringTest" />
-      <option name="METHOD_NAME" value="findAnagrams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NearestCmmonAncestorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.NearestCmmonAncestorTest" />
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NearestCmmonAncestorTest.lowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
+    <configuration name="MinimumWindowSubstringTest.minWindow4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.NearestCmmonAncestorTest" />
-      <option name="METHOD_NAME" value="lowestCommonAncestor" />
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
+      <option name="METHOD_NAME" value="minWindow4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NearestCmmonAncestorTest.testLowestCommonAncestor3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
+    <configuration name="MinimumWindowSubstringTest.minWindow5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.NearestCmmonAncestorTest" />
-      <option name="METHOD_NAME" value="testLowestCommonAncestor3" />
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
+      <option name="METHOD_NAME" value="minWindow5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumWindowSubstringTest.minWindow6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
+      <option name="METHOD_NAME" value="minWindow6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumWindowSubstringTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,10 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindAllAnagramsInAStringTest.findAnagrams" />
-        <item itemvalue="JUnit.NearestCmmonAncestorTest.testLowestCommonAncestor3" />
-        <item itemvalue="JUnit.NearestCmmonAncestorTest" />
-        <item itemvalue="JUnit.NearestCmmonAncestorTest.lowestCommonAncestor" />
+        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow6" />
+        <item itemvalue="JUnit.MinimumWindowSubstringTest.test2" />
+        <item itemvalue="JUnit.MinimumWindowSubstringTest" />
+        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow4" />
+        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow5" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +181,7 @@
       <updated>1578749940400</updated>
       <workItem from="1578749943541" duration="3119000" />
       <workItem from="1578753565981" duration="4559000" />
-      <workItem from="1578899228659" duration="3478000" />
+      <workItem from="1578899228659" duration="8012000" />
     </task>
     <servers />
   </component>
@@ -175,51 +193,51 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="123" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1578753574695" />
-    <state x="935" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1578904374703">
+    <state x="935" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1578907818026">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="526" y="180" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1578750594771" />
-    <state x="935" y="274" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1578904374703" />
-    <state width="1466" height="492" key="GridCell.Tab.0.bottom" timestamp="1578904595209">
+    <state x="935" y="274" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1578907818026" />
+    <state width="1466" height="401" key="GridCell.Tab.0.bottom" timestamp="1578909037063">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595209" />
-    <state width="1466" height="492" key="GridCell.Tab.0.center" timestamp="1578904595209">
+    <state width="1466" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578909037063" />
+    <state width="1466" height="401" key="GridCell.Tab.0.center" timestamp="1578909037063">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="492" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595209" />
-    <state width="1466" height="492" key="GridCell.Tab.0.left" timestamp="1578904595209">
+    <state width="1466" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578909037063" />
+    <state width="1466" height="401" key="GridCell.Tab.0.left" timestamp="1578909037062">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="492" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595209" />
-    <state width="1466" height="492" key="GridCell.Tab.0.right" timestamp="1578904595209">
+    <state width="1466" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578909037062" />
+    <state width="1466" height="401" key="GridCell.Tab.0.right" timestamp="1578909037063">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="492" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595209" />
-    <state width="1466" height="492" key="GridCell.Tab.1.bottom" timestamp="1578904595210">
+    <state width="1466" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578909037063" />
+    <state width="1466" height="492" key="GridCell.Tab.1.bottom" timestamp="1578908456133">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="1466" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595210" />
-    <state width="1466" height="492" key="GridCell.Tab.1.center" timestamp="1578904595210">
+    <state width="1466" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578908456133" />
+    <state width="1466" height="492" key="GridCell.Tab.1.center" timestamp="1578908456133">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595210" />
-    <state width="1466" height="492" key="GridCell.Tab.1.left" timestamp="1578904595209">
+    <state width="1466" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578908456133" />
+    <state width="1466" height="492" key="GridCell.Tab.1.left" timestamp="1578908456133">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595209" />
-    <state width="1466" height="492" key="GridCell.Tab.1.right" timestamp="1578904595210">
+    <state width="1466" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578908456133" />
+    <state width="1466" height="492" key="GridCell.Tab.1.right" timestamp="1578908456133">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="1466" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578904595210" />
+    <state width="1466" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578908456133" />
     <state x="398" y="117" key="SettingsEditor" timestamp="1578899336970">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -229,15 +247,16 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="417" y="289" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753565471" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578901283466">
+    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578906560890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753790939" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578901283466" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1578755616919">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578906560890" />
+    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup" timestamp="1578906586489">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1578755616919" />
+    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1578906586489" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,5 +268,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((MinimumWindowSubstring)this).dict" custom="answer.hard.MinimumWindowSubstring" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
