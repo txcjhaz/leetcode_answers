@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="" />
+    <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/answer/easy/GuessNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/answer/medium/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/answer/easy/GuessNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/answer/medium/LongestRepeatingCharacterReplacementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WFeny5RJU1hpcMzejEPW52I5d9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,11 +45,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,6 +60,10 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="answer.medium" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="answer.medium" />
+      <recent name="answer.easy" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -129,6 +149,7 @@
       <updated>1578749940400</updated>
       <workItem from="1578749943541" duration="3119000" />
       <workItem from="1578753565981" duration="4559000" />
+      <workItem from="1578899228659" duration="98000" />
     </task>
     <servers />
   </component>
@@ -144,22 +165,26 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="180" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1578750594771" />
-    <state width="1397" height="300" key="GridCell.Tab.0.bottom" timestamp="1578757102610">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1466" height="401" key="GridCell.Tab.0.bottom" timestamp="1578899362345">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1397" height="300" key="GridCell.Tab.0.center" timestamp="1578757102610">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1466" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578899362345" />
+    <state width="1466" height="401" key="GridCell.Tab.0.center" timestamp="1578899362345">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1397" height="300" key="GridCell.Tab.0.left" timestamp="1578757102610">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1466" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578899362345" />
+    <state width="1466" height="401" key="GridCell.Tab.0.left" timestamp="1578899362345">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1397" height="300" key="GridCell.Tab.0.right" timestamp="1578757102610">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1466" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578899362345" />
+    <state width="1466" height="401" key="GridCell.Tab.0.right" timestamp="1578899362345">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1466" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578899362345" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1578757102611">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -176,10 +201,11 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state x="224" y="77" key="SettingsEditor" timestamp="1578755447902">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="398" y="117" key="SettingsEditor" timestamp="1578899336970">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="224" y="77" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1578755447902" />
+    <state x="398" y="117" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1578899336970" />
     <state x="417" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1578753565471">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
