@@ -34,6 +34,31 @@ public class LongestRepeatingCharacterReplacement {
 
     /* *
      * @Author Junhui Chen txcjhwing@gmail.com
+     * @Description 改进了效率的滑动窗口，与上面的差89倍
+     * @Date 15:11 2020/1/13
+     * @Param [s, k]
+     * @return int
+     **/
+    public int characterReplacementImproved(String s, int k){
+        // 初始条件
+        if(s == null || s.length() == 0) return 0;
+        int l = 0, r = 0, res = 0;
+        int[] dict = new int[256];  // dict的字典用来记录每一个字符出现的次数（在window内）
+        int maxLen = 0;
+        while(r < s.length()){
+            dict[s.charAt(r)]++;
+            maxLen = Math.max(maxLen, dict[s.charAt(r)]);
+            while((r - l + 1 - maxLen) > k){
+                dict[s.charAt(l++)]--;
+            }
+            res = Math.max(res, r - l + 1);
+            r++;
+        }
+        return res;
+    }
+
+    /* *
+     * @Author Junhui Chen txcjhwing@gmail.com
      * @Description 数一下当前字符串包含多少个串首字符
      * @Date 14:22 2020/1/13
      * @Param [s, ch]
