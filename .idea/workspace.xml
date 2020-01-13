@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WFeny5RJU1hpcMzejEPW52I5d9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="answer.medium" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NearestCmmonAncestorTest.testLowestCommonAncestor3">
+    <configuration name="NearestCmmonAncestorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.medium" />
+      <option name="MAIN_CLASS_NAME" value="answer.medium.NearestCmmonAncestorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestCmmonAncestorTest.lowestCommonAncestor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.medium" />
+      <option name="MAIN_CLASS_NAME" value="answer.medium.NearestCmmonAncestorTest" />
+      <option name="METHOD_NAME" value="lowestCommonAncestor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestCmmonAncestorTest.testLowestCommonAncestor3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.medium" />
+      <option name="MAIN_CLASS_NAME" value="answer.medium.NearestCmmonAncestorTest" />
+      <option name="METHOD_NAME" value="testLowestCommonAncestor3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NearestCmmonAncestorTest.testLowestCommonAncestor3" />
+        <item itemvalue="JUnit.NearestCmmonAncestorTest" />
+        <item itemvalue="JUnit.NearestCmmonAncestorTest.lowestCommonAncestor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="" />
+      <created>1578749940400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578749940400</updated>
+      <workItem from="1578749943541" duration="3119000" />
+      <workItem from="1578753565981" duration="4559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="123" key="#Project_Structure" timestamp="1578753574695">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="123" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1578753574695" />
+    <state x="526" y="180" key="#com.intellij.ide.util.MemberChooser" timestamp="1578750594771">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="526" y="180" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1578750594771" />
+    <state width="1397" height="300" key="GridCell.Tab.0.bottom" timestamp="1578757102610">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1397" height="300" key="GridCell.Tab.0.center" timestamp="1578757102610">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1397" height="300" key="GridCell.Tab.0.left" timestamp="1578757102610">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1397" height="300" key="GridCell.Tab.0.right" timestamp="1578757102610">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1578757102611">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1578757102610">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1578757102610">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1578757102611">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
+    <state x="224" y="77" key="SettingsEditor" timestamp="1578755447902">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="224" y="77" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1578755447902" />
+    <state x="417" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1578753565471">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="417" y="289" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753565471" />
+    <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578753790939">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753790939" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1578755616919">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1578755616919" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/answer/medium/NearestCmmonAncestorTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
