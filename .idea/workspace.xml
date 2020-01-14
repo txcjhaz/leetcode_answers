@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/answer/hard/SlidingWindowMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/answer/hard/SlidingWindowMaximumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/answer/hard/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answer/hard/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/answer/hard/MinimumWindowSubstringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/answer/hard/MinimumWindowSubstringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/answer/hard/MinimumWindowSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/answer/hard/MinimumWindowSubstring.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,11 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-analysis" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -58,15 +60,15 @@
       <recent name="answer.hard" />
       <recent name="answer.medium" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="answer.medium" />
       <recent name="answer.easy" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinimumWindowSubstringTest">
+  <component name="RunManager" selected="JUnit.SlidingWindowMaximumTest.maxSlidingWindow4">
     <configuration name="MinimumWindowSubstringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
@@ -82,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstringTest.minWindow2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SlidingWindowMaximumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
@@ -91,14 +93,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="answer.hard" />
-      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
-      <option name="METHOD_NAME" value="minWindow2" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.SlidingWindowMaximumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindowMaximumTest.maxSlidingWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.SlidingWindowMaximumTest" />
+      <option name="METHOD_NAME" value="maxSlidingWindow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstringTest.minWindow4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SlidingWindowMaximumTest.maxSlidingWindow3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
@@ -107,14 +124,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="answer.hard" />
-      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
-      <option name="METHOD_NAME" value="minWindow4" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.SlidingWindowMaximumTest" />
+      <option name="METHOD_NAME" value="maxSlidingWindow3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstringTest.minWindow8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SlidingWindowMaximumTest.maxSlidingWindow4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
@@ -123,24 +140,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="answer.hard" />
-      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
-      <option name="METHOD_NAME" value="minWindow8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumWindowSubstringTest.minWindow9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_answers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answer.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="answer.hard" />
-      <option name="MAIN_CLASS_NAME" value="answer.hard.MinimumWindowSubstringTest" />
-      <option name="METHOD_NAME" value="minWindow9" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.SlidingWindowMaximumTest" />
+      <option name="METHOD_NAME" value="maxSlidingWindow4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SlidingWindowMaximumTest.maxSlidingWindow4" />
+        <item itemvalue="JUnit.SlidingWindowMaximumTest" />
+        <item itemvalue="JUnit.SlidingWindowMaximumTest.maxSlidingWindow3" />
+        <item itemvalue="JUnit.SlidingWindowMaximumTest.maxSlidingWindow" />
         <item itemvalue="JUnit.MinimumWindowSubstringTest" />
-        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow9" />
-        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow4" />
-        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow2" />
-        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow8" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,8 @@
       <workItem from="1578749943541" duration="3119000" />
       <workItem from="1578753565981" duration="4559000" />
       <workItem from="1578899228659" duration="8080000" />
-      <workItem from="1578963527890" duration="4934000" />
+      <workItem from="1578963527890" duration="7070000" />
+      <workItem from="1578979787287" duration="3384000" />
     </task>
     <servers />
   </component>
@@ -193,70 +195,74 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="123" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1578753574695" />
-    <state x="1142" y="100" width="1324" height="1200" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578965689264">
+    <state x="1142" y="100" width="1324" height="1200" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578980985221">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1142" y="100" width="1324" height="1200" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578965689264" />
+    <state x="1142" y="100" width="1324" height="1200" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578980985221" />
     <state x="935" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1578907818026">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="526" y="180" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1578750594771" />
     <state x="935" y="274" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1578907818026" />
-    <state width="1466" height="397" key="GridCell.Tab.0.bottom" timestamp="1578969251815">
+    <state x="1585" y="459" key="FileChooserDialogImpl" timestamp="1578970574928">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1585" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1578970574928" />
+    <state width="1217" height="399" key="GridCell.Tab.0.bottom" timestamp="1578981392378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578969251815" />
-    <state width="1466" height="397" key="GridCell.Tab.0.center" timestamp="1578969251815">
+    <state width="1217" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578981392378" />
+    <state width="1217" height="399" key="GridCell.Tab.0.center" timestamp="1578981392378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578969251815" />
-    <state width="1466" height="397" key="GridCell.Tab.0.left" timestamp="1578969251814">
+    <state width="1217" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578981392378" />
+    <state width="1217" height="399" key="GridCell.Tab.0.left" timestamp="1578981392378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578969251814" />
-    <state width="1466" height="397" key="GridCell.Tab.0.right" timestamp="1578969251815">
+    <state width="1217" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578981392378" />
+    <state width="1217" height="399" key="GridCell.Tab.0.right" timestamp="1578981392378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578969251815" />
-    <state width="1466" height="489" key="GridCell.Tab.1.bottom" timestamp="1578969093824">
+    <state width="1217" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578981392378" />
+    <state width="1217" height="491" key="GridCell.Tab.1.bottom" timestamp="1578981350007">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="1466" height="489" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578969093824" />
-    <state width="1466" height="489" key="GridCell.Tab.1.center" timestamp="1578969093824">
+    <state width="1217" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1578981350007" />
+    <state width="1217" height="491" key="GridCell.Tab.1.center" timestamp="1578981350007">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="489" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578969093824" />
-    <state width="1466" height="489" key="GridCell.Tab.1.left" timestamp="1578969093824">
+    <state width="1217" height="491" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1578981350007" />
+    <state width="1217" height="491" key="GridCell.Tab.1.left" timestamp="1578981350007">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1466" height="489" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578969093824" />
-    <state width="1466" height="489" key="GridCell.Tab.1.right" timestamp="1578969093824">
+    <state width="1217" height="491" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1578981350007" />
+    <state width="1217" height="491" key="GridCell.Tab.1.right" timestamp="1578981350007">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="1466" height="489" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578969093824" />
+    <state width="1217" height="491" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1578981350007" />
     <state x="398" y="117" key="SettingsEditor" timestamp="1578899336970">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="224" y="77" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1578755447902" />
     <state x="398" y="117" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1578899336970" />
-    <state x="741" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1578963527622">
+    <state x="741" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1578979828017">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="417" y="289" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753565471" />
-    <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578963527622" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578906560890">
+    <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578979828017" />
+    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578979880656">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753790939" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578906560890" />
+    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578979880656" />
     <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup" timestamp="1578968398703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -270,11 +276,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/answer/medium/NearestCmmonAncestorTest.java</url>
           <line>29</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/answer/hard/MinimumWindowSubstring.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
