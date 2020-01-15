@@ -14,33 +14,31 @@ public class SlidingWindowMaximum {
         // 下一个窗口与当前最大值的区别在于，这个最大值可能是滑过的数字，也可能还在当前窗口中（所以仅需比较两次，重点在于确定最大数字的位置）
 
         // 特殊情况
-        if(nums.length == 0)
+        if (nums.length == 0)
             return new int[]{};
 
         // 初始化
         int res_len = nums.length - k + 1;
         int[] res = new int[res_len];
         int last_max = (int) Double.NEGATIVE_INFINITY;
-        int last_max_index = -1, L = 0, R = k-1;
+        int last_max_index = -1, L = 0, R = k - 1;
 
-        while(R < nums.length){
-            if(last_max_index < L){ // 如果最大值已经滑过了，得重新选举最大值
+        while (R < nums.length) {
+            if (last_max_index < L) { // 如果最大值已经滑过了，得重新选举最大值
                 last_max = (int) Double.NEGATIVE_INFINITY;  // reset最大值
-                for(int i = L; i <= R; i++){
-                    if(last_max < nums[i]){
+                for (int i = L; i <= R; i++) {
+                    if (last_max < nums[i]) {
                         last_max = nums[i];
                         last_max_index = i;
                         res[L] = last_max;
                     }
                 }
-            }
-            else{                   // 否则仅需比较最大值与下一个位置的值的大小即可
-                if(last_max < nums[R]){
+            } else {                   // 否则仅需比较最大值与下一个位置的值的大小即可
+                if (last_max < nums[R]) {
                     last_max = nums[R];
                     last_max_index = R;
                     res[L] = last_max;
-                }
-                else
+                } else
                     res[L] = last_max;
             }
             L++;
