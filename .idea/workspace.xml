@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/answer/medium/UniqueBinarySearchTreesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/answer/medium/UniqueBinarySearchTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answer/medium/UniqueBinarySearchTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/answer/hard/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answer/hard/RegularExpressionMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/answer/hard/RegularExpressionMatchingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/answer/hard/RegularExpressionMatchingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,54 +70,7 @@
       <recent name="answer.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegularExpressionMatchingTest">
-    <configuration name="DecodeWaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_answers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.DecodeWaysTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecodeWaysTest.numDecodings6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_answers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.DecodeWaysTest" />
-      <option name="METHOD_NAME" value="numDecodings6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecodeWaysTest.numDecodings7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_answers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.DecodeWaysTest" />
-      <option name="METHOD_NAME" value="numDecodings7" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegularExpressionMatchingTest.isMatch5">
     <configuration name="RegularExpressionMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
@@ -129,6 +82,54 @@
       <option name="PACKAGE_NAME" value="answer.hard" />
       <option name="MAIN_CLASS_NAME" value="answer.hard.RegularExpressionMatchingTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularExpressionMatchingTest.isMatch2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.RegularExpressionMatchingTest" />
+      <option name="METHOD_NAME" value="isMatch2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularExpressionMatchingTest.isMatch3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.RegularExpressionMatchingTest" />
+      <option name="METHOD_NAME" value="isMatch3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularExpressionMatchingTest.isMatch5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_answers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="answer.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="answer.hard" />
+      <option name="MAIN_CLASS_NAME" value="answer.hard.RegularExpressionMatchingTest" />
+      <option name="METHOD_NAME" value="isMatch5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegularExpressionMatchingTest.isMatch5" />
         <item itemvalue="JUnit.RegularExpressionMatchingTest" />
+        <item itemvalue="JUnit.RegularExpressionMatchingTest.isMatch2" />
+        <item itemvalue="JUnit.RegularExpressionMatchingTest.isMatch3" />
         <item itemvalue="JUnit.UniqueBinarySearchTreesTest.name" />
-        <item itemvalue="JUnit.DecodeWaysTest.numDecodings6" />
-        <item itemvalue="JUnit.DecodeWaysTest" />
-        <item itemvalue="JUnit.DecodeWaysTest.numDecodings7" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +191,7 @@
       <workItem from="1578986050519" duration="652000" />
       <workItem from="1579051283301" duration="12098000" />
       <workItem from="1579072373346" duration="6588000" />
+      <workItem from="1579135935554" duration="7094000" />
     </task>
     <servers />
   </component>
@@ -226,66 +228,66 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1585" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1578989515167" />
-    <state width="1236" height="395" key="GridCell.Tab.0.bottom" timestamp="1579078941381">
+    <state width="2517" height="397" key="GridCell.Tab.0.bottom" timestamp="1579142634602">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1236" height="395" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579078941381" />
-    <state width="1236" height="395" key="GridCell.Tab.0.center" timestamp="1579078941381">
+    <state width="2517" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579142634602" />
+    <state width="2517" height="397" key="GridCell.Tab.0.center" timestamp="1579142634601">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1236" height="395" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579078941381" />
-    <state width="1236" height="395" key="GridCell.Tab.0.left" timestamp="1579078941381">
+    <state width="2517" height="397" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579142634601" />
+    <state width="2517" height="397" key="GridCell.Tab.0.left" timestamp="1579142634601">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1236" height="395" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579078941381" />
-    <state width="1236" height="395" key="GridCell.Tab.0.right" timestamp="1579078941381">
+    <state width="2517" height="397" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579142634601" />
+    <state width="2517" height="397" key="GridCell.Tab.0.right" timestamp="1579142634602">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1236" height="395" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579078941381" />
-    <state width="1236" height="487" key="GridCell.Tab.1.bottom" timestamp="1579077190864">
+    <state width="2517" height="397" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579142634602" />
+    <state width="848" height="848" key="GridCell.Tab.1.bottom" timestamp="1579142617604">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="1236" height="487" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579077190864" />
-    <state width="1236" height="487" key="GridCell.Tab.1.center" timestamp="1579077190864">
+    <state width="848" height="848" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579142617604" />
+    <state width="848" height="848" key="GridCell.Tab.1.center" timestamp="1579142617604">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1236" height="487" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579077190864" />
-    <state width="1236" height="487" key="GridCell.Tab.1.left" timestamp="1579077190864">
+    <state width="848" height="848" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579142617604" />
+    <state width="848" height="848" key="GridCell.Tab.1.left" timestamp="1579142617604">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="1236" height="487" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579077190864" />
-    <state width="1236" height="487" key="GridCell.Tab.1.right" timestamp="1579077190864">
+    <state width="848" height="848" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579142617604" />
+    <state width="848" height="848" key="GridCell.Tab.1.right" timestamp="1579142617604">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="1236" height="487" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579077190864" />
+    <state width="848" height="848" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579142617604" />
     <state x="398" y="117" width="1692" height="708" key="SettingsEditor" timestamp="1579072361925">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="224" y="77" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1578755447902" />
     <state x="398" y="117" width="1692" height="708" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1579072361925" />
-    <state x="741" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1579072373494">
+    <state x="741" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1579135948378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="417" y="289" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753565471" />
-    <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579072373494" />
+    <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579135948378" />
     <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579076442463">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753790939" />
     <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579076442463" />
-    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup" timestamp="1579076589124">
+    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup" timestamp="1579140826982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1578755616919" />
-    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1579076589124" />
+    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1579140826982" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,10 +301,11 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="((MinimumWindowSubstring)this).dict" custom="answer.hard.MinimumWindowSubstring" />
-        <watch expression="ss[L]" language="JAVA" />
-        <watch expression="ss[R]" language="JAVA" />
-        <watch expression="s.substring(L_res, R_res+1)" language="JAVA" />
+        <watch expression="P[j - 1] == '*' &amp;&amp; dp[i][j - 2]" language="JAVA" />
+        <watch expression="P[j - 1] == '*' &amp;&amp; P[j - 2] == '.' &amp;&amp; dp[i - 1][j]" language="JAVA" />
+        <watch expression="P[j - 1] == '*' &amp;&amp; P[j - 2] == T[i - 1] &amp;&amp; dp[i - 1][j]" language="JAVA" />
+        <watch expression="P[j - 1] == T[i - 1] &amp;&amp; dp[i - 1][j - 1]" language="JAVA" />
+        <watch expression="P[j - 1] == '.' &amp;&amp; dp[i - 1][j - 1]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

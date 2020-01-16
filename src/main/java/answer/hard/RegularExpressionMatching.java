@@ -22,27 +22,60 @@ public class RegularExpressionMatching {
         char[] T = text.toCharArray(), P = pattern.toCharArray();
         boolean[][] dp = new boolean[T.length + 1][P.length + 1];
 
-        dp[0][0] = true;
-        for (int i = 0; i < P.length; i++) {
-            dp[0][i + 1] = P[i] == '*' && dp[0][i - 1];
-        }
-        for (int i = 0; i < T.length; i++) {
-            for (int j = 0; j < P.length; j++) {
-                if (T[i] == P[j] || P[j] == '.') {
-                    dp[i + 1][j + 1] = dp[i][j];
-                } else if (P[j] == '*') {
-                    // 有两种情况
-                    if (T[i] != P[j - 1] && P[j - 1] != '.') {        // 由于是星号，可以匹配0次或多次（相当于去掉不匹配的a*）
-                        dp[i + 1][j + 1] = dp[i][j];                    // 所以现在dp[i][j]取决于dp[i][j-2]
-                    } else {
-                        dp[i + 1][j + 1] = dp[i][j + 1] || dp[i + 1][j] || dp[i + 1][j - 1];
-                    }
-                }
+        dp[0][0] = true;        // text与pattern均为空可以匹配成功
+        // 先完成各为空的情况
+        for (int i = 1; i <= P.length; i++)
+            dp[0][i] = P[i - 1] == '*' && dp[0][i - 2];  // 新增的为星号，则等于上一个新增之前的状态（上一个新增加*可以去掉）;
+        // 点不能匹配空
+        for (int i = 1; i <= T.length; i++)
+            dp[i][0] = false;                            // 大于0的是万万不可能的
+
+        for (int i = 1; i <= T.length; i++) {
+            for (int j = 1; j <= P.length; j++) {
+                // 假设i不动，先考虑j动一次
+                dp[i][j] = P[j - 1] == '*' && dp[i][j - 2];  // 新增的为星号，则等于上一个新增之前的状态（上一个新增加*可以去掉）
+                // 点不能匹配空
+
+                // 假设j不动，i动一次; i动时为真的条件有两个：当前满足？*或者.*
+                dp[i][j] = dp[i][j]
+                        || (P[j - 1] == '*' && P[j - 2] == '.' && dp[i - 1][j])
+                        || (P[j - 1] == '*' && P[j - 2] == T[i - 1] && dp[i - 1][j]);
+
+                // 最通常的想法,i、j各动一次
+                dp[i][j] = dp[i][j]
+                        || P[j - 1] == T[i - 1] && dp[i - 1][j - 1]     // 相等匹配
+                        || P[j - 1] == '.' && dp[i - 1][j - 1];         // 点号匹配
             }
         }
 
         return dp[T.length][P.length];
     }
+
+//    public boolean isMatch1(String text, String pattern) {
+//        char[] T = text.toCharArray(), P = pattern.toCharArray();
+//        boolean[][] dp = new boolean[T.length + 1][P.length + 1];
+//
+//        dp[0][0] = true;
+//        for (int i = 0; i < P.length; i++) {
+//            dp[0][i + 1] = P[i] == '*' && dp[0][i - 1];
+//        }
+//        for (int i = 0; i < T.length; i++) {
+//            for (int j = 0; j < P.length; j++) {
+//                if (T[i] == P[j] || P[j] == '.') {
+//                    dp[i + 1][j + 1] = dp[i][j];
+//                } else if (P[j] == '*') {
+//                    // 有两种情况
+//                    if (T[i] != P[j - 1] && P[j - 1] != '.') {        // 由于是星号，可以匹配0次或多次（相当于去掉不匹配的a*）
+//                        dp[i + 1][j + 1] = dp[i][j];                    // 所以现在dp[i][j]取决于dp[i][j-2]
+//                    } else {
+//                        dp[i + 1][j + 1] = dp[i][j + 1] || dp[i + 1][j] || dp[i + 1][j - 1];
+//                    }
+//                }
+//            }
+//        }
+//
+//        return dp[T.length][P.length];
+//    }
 }
 
 
