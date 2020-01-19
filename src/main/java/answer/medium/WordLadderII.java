@@ -1,18 +1,19 @@
 package answer.medium;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ClassName WordLadderII
- * @Deacription 126. 单词接龙 II
+ * @Deacription 126. 单词接龙 II TODO 算法优化，这个老超时
  * @Author Junhui Chen txcjhwing@gmail.com
  * @Date 2020/1/16 14:02
  * @Version 1.0
  **/
 public class WordLadderII {
+    int minLen = Integer.MAX_VALUE;
+    HashMap<String, Integer> distance = new HashMap<>();
+    HashMap<String, List<Integer>> neighbours = new HashMap<>();
+    List<String> globalWordList;
     // 给定两个单词（beginWord 和 endWord）和一个字典 wordList，找出所有从 beginWord 到 endWord 的最短转换序列。转换需遵循如下规则：
     //
     // 每次转换只能改变一个字母。
@@ -29,16 +30,29 @@ public class WordLadderII {
         if(beginWord.length() == 0 || endWord.length() == 0 || wordList.size() == 0)
             return res;
 
-        for(int i = 0; i < wordList.size(); i++){
-            List<String> words = new ArrayList<>(wordList);
-            if(canTrans(beginWord, wordList.get(i))){
-                List<List<String>> subRes = isOk(wordList.get(i), endWord, wordList);
-                for(List<String> list : subRes) {
-                    list.add(0, beginWord);
-                    res.add(list);
+        // 找出每个单词可转换的单词，并保存起来
+        List<Integer> tmp = new ArrayList<>();
+        for (String s : wordList) {
+            if (canTrans(beginWord, s))
+                tmp.add(wordList.indexOf(s));
+        }
+        neighbours.put(beginWord, tmp);
+        for(String s1 : wordList){
+            if(!s1.equals(beginWord)){
+                List<Integer> tmp2 = new ArrayList<>();
+                for(String s2 : wordList) {
+                    if(s1.equals(s2))
+                        continue;
+                    if(canTrans(s1, s2))
+                        tmp2.add(wordList.indexOf(s2));
                 }
+                neighbours.put(s1, tmp2);
             }
         }
+        globalWordList = wordList;
+
+        List<String> visited = new ArrayList<>();
+        res = isOk(beginWord, endWord, wordList, 0);
 
         // 挑选出最短的
         int min = Integer.MAX_VALUE;
@@ -54,38 +68,77 @@ public class WordLadderII {
         return res;
     }
 
-    public List<List<String>> isOk(String cur, String endWord, List<String> wordList) {
+    public List<List<String>> isOk(String cur, String endWord, List<String> wordList, int curDepth) {
         List<List<String>> res = new ArrayList<>();
+
+        if(curDepth > minLen)
+            return res;
+
+        if(distance.containsKey(cur)){
+            if(distance.get(cur) < curDepth)    // 这个单词之前遇到过了，但当前深度比之前深，所以放弃搜索
+                return res;
+            else if(distance.get(cur) > curDepth)
+                distance.replace(cur, curDepth);    // 当前深度低，替换深度
+        }
+        else
+            distance.put(cur, curDepth);        // 不包含的话加入distance
+
         if (cur.equals(endWord)) {
             List<String> tmp = new ArrayList<>();
             tmp.add(cur);
             res.add(tmp);
+            minLen = curDepth;
             return res;
         }
 
-        for (int i = 0; i < wordList.size(); i++) {
-            if (canTrans(cur, wordList.get(i))) {
-                List<String> subwords = new ArrayList<>(wordList);
+        if(wordList.size() < neighbours.get(cur).size())
+            for(String word : wordList) {
+                if (neighbours.get(cur).contains(globalWordList.indexOf(word))) {
+                    List<String> subwords = new ArrayList<>(wordList);
 
-                // 删除元素
-                Iterator<String> it = subwords.iterator();
-                while (it.hasNext()) {
-                    String tmp = it.next();
-                    if (tmp.equals(wordList.get(i))) {
-                        it.remove();
-                        break;
+                    // 删除元素
+                    Iterator<String> it = subwords.iterator();
+                    while (it.hasNext()) {
+                        String tmp = it.next();
+                        if (tmp.equals(word)) {
+                            it.remove();
+                            break;
+                        }
                     }
-                }
 
-                List<List<String>> subRes = isOk(wordList.get(i), endWord, subwords);
-                if (subRes.size() > 0) {
-                    for (List<String> list : subRes) {
-                        list.add(0, cur);
-                        res.add(list);
+                    List<List<String>> subRes = isOk(word, endWord, subwords, curDepth + 1);
+                    if (subRes.size() > 0) {
+                        for (List<String> list : subRes) {
+                            list.add(0, cur);
+                            res.add(list);
+                        }
                     }
                 }
             }
-        }
+        else
+            for(int i : neighbours.get(cur)){
+                if (wordList.contains(globalWordList.get(i))) {
+                    List<String> subwords = new ArrayList<>(wordList);
+
+                    // 删除元素
+                    Iterator<String> it = subwords.iterator();
+                    while (it.hasNext()) {
+                        String tmp = it.next();
+                        if (tmp.equals(globalWordList.get(i))) {
+                            it.remove();
+                            break;
+                        }
+                    }
+
+                    List<List<String>> subRes = isOk(globalWordList.get(i), endWord, subwords, curDepth + 1);
+                    if (subRes.size() > 0) {
+                        for (List<String> list : subRes) {
+                            list.add(0, cur);
+                            res.add(list);
+                        }
+                    }
+                }
+            }
 
         return res;
     }

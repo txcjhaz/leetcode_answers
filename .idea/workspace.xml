@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/answer/medium/WordLadderIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/answer/easy/SymmetricTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/answer/easy/SymmetricTreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/answer/medium/WordLadderIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/answer/medium/WordLadderIITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../earthquake-background" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,92 +61,93 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="answer.easy" />
       <recent name="answer.medium" />
       <recent name="answer.hard" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="answer.medium" />
       <recent name="answer.easy" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordLadderIITest.findLadders4">
-    <configuration name="WordLadderIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SymmetricTreeTest">
+    <configuration name="SymmetricTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.WordLadderIITest" />
+      <option name="PACKAGE_NAME" value="answer.easy" />
+      <option name="MAIN_CLASS_NAME" value="answer.easy.SymmetricTreeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadderIITest.findLadders1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest.isSymmetric1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.WordLadderIITest" />
-      <option name="METHOD_NAME" value="findLadders1" />
+      <option name="PACKAGE_NAME" value="answer.easy" />
+      <option name="MAIN_CLASS_NAME" value="answer.easy.SymmetricTreeTest" />
+      <option name="METHOD_NAME" value="isSymmetric1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadderIITest.findLadders2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest.isSymmetric2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.WordLadderIITest" />
-      <option name="METHOD_NAME" value="findLadders2" />
+      <option name="PACKAGE_NAME" value="answer.easy" />
+      <option name="MAIN_CLASS_NAME" value="answer.easy.SymmetricTreeTest" />
+      <option name="METHOD_NAME" value="isSymmetric2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadderIITest.findLadders3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest.isSymmetric3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.WordLadderIITest" />
-      <option name="METHOD_NAME" value="findLadders3" />
+      <option name="PACKAGE_NAME" value="answer.easy" />
+      <option name="MAIN_CLASS_NAME" value="answer.easy.SymmetricTreeTest" />
+      <option name="METHOD_NAME" value="isSymmetric3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadderIITest.findLadders4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SymmetricTreeTest.listIsSymmetric2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_answers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="answer.medium.*" />
+          <option name="PATTERN" value="answer.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="answer.medium" />
-      <option name="MAIN_CLASS_NAME" value="answer.medium.WordLadderIITest" />
-      <option name="METHOD_NAME" value="findLadders4" />
+      <option name="PACKAGE_NAME" value="answer.easy" />
+      <option name="MAIN_CLASS_NAME" value="answer.easy.SymmetricTreeTest" />
+      <option name="METHOD_NAME" value="listIsSymmetric2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WordLadderIITest.findLadders4" />
-        <item itemvalue="JUnit.WordLadderIITest" />
-        <item itemvalue="JUnit.WordLadderIITest.findLadders3" />
-        <item itemvalue="JUnit.WordLadderIITest.findLadders1" />
-        <item itemvalue="JUnit.WordLadderIITest.findLadders2" />
+        <item itemvalue="JUnit.SymmetricTreeTest" />
+        <item itemvalue="JUnit.SymmetricTreeTest.isSymmetric3" />
+        <item itemvalue="JUnit.SymmetricTreeTest.isSymmetric1" />
+        <item itemvalue="JUnit.SymmetricTreeTest.isSymmetric2" />
+        <item itemvalue="JUnit.SymmetricTreeTest.listIsSymmetric2" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,10 @@
       <workItem from="1579051283301" duration="12098000" />
       <workItem from="1579072373346" duration="6588000" />
       <workItem from="1579135935554" duration="7867000" />
-      <workItem from="1579154521903" duration="8326000" />
+      <workItem from="1579154521903" duration="8617000" />
+      <workItem from="1579222726215" duration="5792000" />
+      <workItem from="1579398802961" duration="340000" />
+      <workItem from="1579399289968" duration="2937000" />
     </task>
     <servers />
   </component>
@@ -226,74 +231,74 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1650" y="565" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1578985167382" />
-    <state x="1585" y="459" key="FileChooserDialogImpl" timestamp="1579157852834">
+    <state x="1585" y="459" key="FileChooserDialogImpl" timestamp="1579228302581">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1585" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1579157852834" />
-    <state width="2517" height="394" key="GridCell.Tab.0.bottom" timestamp="1579162418216">
+    <state x="1585" y="459" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1579228302581" />
+    <state width="1408" height="394" key="GridCell.Tab.0.bottom" timestamp="1579402260963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="2517" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579162418216" />
-    <state width="2517" height="394" key="GridCell.Tab.0.center" timestamp="1579162418216">
+    <state width="1408" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579402260963" />
+    <state width="1408" height="394" key="GridCell.Tab.0.center" timestamp="1579402260963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="2517" height="394" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579162418216" />
-    <state width="2517" height="394" key="GridCell.Tab.0.left" timestamp="1579162418216">
+    <state width="1408" height="394" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579402260963" />
+    <state width="1408" height="394" key="GridCell.Tab.0.left" timestamp="1579402260963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="2517" height="394" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579162418216" />
-    <state width="2517" height="394" key="GridCell.Tab.0.right" timestamp="1579162418216">
+    <state width="1408" height="394" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579402260963" />
+    <state width="1408" height="394" key="GridCell.Tab.0.right" timestamp="1579402260963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="2517" height="394" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579162418216" />
-    <state width="415" height="851" key="GridCell.Tab.1.bottom" timestamp="1579162212300">
+    <state width="1408" height="394" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579402260963" />
+    <state width="622" height="843" key="GridCell.Tab.1.bottom" timestamp="1579401251455">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="415" height="851" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579162212300" />
-    <state width="415" height="851" key="GridCell.Tab.1.center" timestamp="1579162212300">
+    <state width="622" height="843" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1579401251455" />
+    <state width="622" height="843" key="GridCell.Tab.1.center" timestamp="1579401251454">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="415" height="851" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579162212300" />
-    <state width="415" height="851" key="GridCell.Tab.1.left" timestamp="1579162212300">
+    <state width="622" height="843" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1579401251454" />
+    <state width="622" height="843" key="GridCell.Tab.1.left" timestamp="1579401251454">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1578757102610" />
-    <state width="415" height="851" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579162212300" />
-    <state width="415" height="851" key="GridCell.Tab.1.right" timestamp="1579162212300">
+    <state width="622" height="843" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1579401251454" />
+    <state width="622" height="843" key="GridCell.Tab.1.right" timestamp="1579401251454">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1578757102611" />
-    <state width="415" height="851" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579162212300" />
+    <state width="622" height="843" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1579401251454" />
     <state x="398" y="117" width="1692" height="708" key="SettingsEditor" timestamp="1579072361925">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="224" y="77" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1578755447902" />
     <state x="398" y="117" width="1692" height="708" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1579072361925" />
-    <state x="741" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1579135948378">
+    <state x="741" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1579399316360">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="417" y="289" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753565471" />
-    <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579135948378" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579156643428">
+    <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579399316360" />
+    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579399921209">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753790939" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579156643428" />
+    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579399921209" />
     <state x="668" y="409" key="new project wizard" timestamp="1579143932174">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="668" y="409" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1579143932174" />
-    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup" timestamp="1579155589773">
+    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup" timestamp="1579225177930">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1578755616919" />
-    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1579155589773" />
+    <state x="681" y="297" width="1195" height="1032" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1579225177930" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,11 +308,33 @@
           <line>29</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/answer/easy/SymmetricTree.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/answer/easy/SymmetricTreeTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="wordList.get(i)" language="JAVA" />
+        <watch expression="neighbours" language="JAVA" />
+        <watch expression="globalWordList" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
