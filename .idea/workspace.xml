@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f96eda35-355b-4410-b82e-13dbb687da66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/answer/easy/SymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/answer/easy/SymmetricTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/answer/medium/WordLadderII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/answer/medium/WordLadderIITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/answer/medium/WordLadderIITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/answer/easy/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/answer/easy/MaximumDepthOfBinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +196,7 @@
       <workItem from="1579222726215" duration="5792000" />
       <workItem from="1579398802961" duration="340000" />
       <workItem from="1579399289968" duration="2937000" />
+      <workItem from="1579446403294" duration="362000" />
     </task>
     <servers />
   </component>
@@ -227,6 +225,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="905" y="382" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1578985704841" />
+    <state x="809" y="423" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579446798334">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="809" y="423" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1112@0.0.2048.1112" timestamp="1579446798334" />
     <state x="1650" y="565" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578985167382">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -285,10 +287,11 @@
     </state>
     <state x="417" y="289" key="com.intellij.ide.util.TipDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753565471" />
     <state x="741" y="440" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579399316360" />
-    <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579399921209">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="700" y="216" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579446762622">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="492" y="179" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.920@0.0.1440.920" timestamp="1578753790939" />
+    <state x="700" y="216" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1579446762622" />
     <state x="875" y="272" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1579399921209" />
     <state x="668" y="409" key="new project wizard" timestamp="1579143932174">
       <screen x="0" y="0" width="2560" height="1400" />
